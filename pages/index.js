@@ -90,7 +90,7 @@ export default function Home() {
         </div>
         <Script src="./modal.js"></Script>
       </main>
-      <main style="visibility: hidden;">
+      <main style={{visibility: hidden}}>
         <div id="video">
           <video controls muted>
             <source src={stream}></source>
