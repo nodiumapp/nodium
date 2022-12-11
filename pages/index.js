@@ -58,7 +58,7 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="http://kakka.fi" className={styles.card} onclick="document.getElementById('id01').style.display='block'">
+          <a href="#" className={styles.card} onclick="document.getElementById('id01').style.display='block'">
             <Image src="./vercel.svg" alt="Vercel Logo" />
             <h2>kakka.fi &rarr;</h2>
           </a>
