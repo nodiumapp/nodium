@@ -60,7 +60,7 @@ export default function Home() {
         <div className={styles.grid}>
           <a href="#" className={styles.card} onclick="document.getElementById('id01').style.display='block'">
             <Image src="./vercel.svg" alt="Vercel Logo" />
-            <h2>kakka.fi &rarr;</h2>
+            <h2>wait what &rarr;</h2>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
