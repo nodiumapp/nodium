@@ -2,6 +2,23 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Script from 'next/script'
 import styles from '../styles/Home.module.css'
+import { initializeApp } from "firebase/app";
+//import { getAnalytics } from "firebase/analytics";
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyD9VmjEPRgJ6vgEoO-HaDRyrZG6KPNORwc",
+  authDomain: "nodiumapp.firebaseapp.com",
+  projectId: "nodiumapp",
+  storageBucket: "nodiumapp.appspot.com",
+  messagingSenderId: "75670864673",
+  appId: "1:75670864673:web:fc11770492730128d57460",
+  measurementId: "G-RTST9YPPMD"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 const auth = getAuth(app);
 let stream = "";
